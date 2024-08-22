@@ -1,7 +1,15 @@
+import { Footer } from "./components/Footer";
+import { Hero } from "./components/Hero";
+import { MainContent } from "./components/MainContent";
+import { Navbar } from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <h1>rtt-vite-template</h1>
+      <Navbar />
+      <Hero />
+      <MainContent />
+      <Footer />
     </>
   );
 }
