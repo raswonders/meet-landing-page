@@ -6,8 +6,10 @@ import { Navbar } from "./components/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      <header>
+        <Navbar />
+        <Hero />
+      </header>
       <MainContent />
       <Footer />
     </>
