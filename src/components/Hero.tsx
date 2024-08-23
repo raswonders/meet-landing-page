@@ -2,7 +2,7 @@ import { Button } from "./Button";
 
 export function Hero() {
   return (
-    <section className="mt-16 mb-8 sm:mb-16 space-y-12 overflow-hidden">
+    <section className="pt-16 pb-8 sm:pb-16 space-y-12 overflow-hidden">
       <div className="-mx-[7.5vw] aspect-[820/303] bg-cover bg-[url('/assets/mobile/image-hero.png')]"></div>
       <div className="flex justify-center">
         <div className="px-9 flex flex-col gap-6 items-center text-center max-w-md">
