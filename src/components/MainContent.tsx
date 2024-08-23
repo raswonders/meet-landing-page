@@ -2,9 +2,9 @@ import { VerticalIndicator } from "./VerticalIndicator";
 
 export function MainContent() {
   return (
-    <main className="p-8 sm:pt-14 pb-16 lg:pb-[4.5rem] lg:px-20 flex flex-col items-center">
+    <main className="p-8 sm:pt-14 pb-16 lg:pb-[4.5rem] lg:px-40 flex flex-col items-center">
       <VerticalIndicator>01</VerticalIndicator>
-      <div className="my-16 lg:mx-20 grid grid-cols-2 sm:grid-cols-4 grid-rows-2 sm:grid-rows-1 gap-4 lg:gap-5">
+      <div className="my-16 grid grid-cols-2 sm:grid-cols-4 grid-rows-2 sm:grid-rows-1 gap-4 lg:gap-5">
         <img
           src="/assets/mobile/image-woman-in-videocall.jpg"
           alt=""

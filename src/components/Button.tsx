@@ -16,7 +16,9 @@ export function Button({ color, children }: Props) {
   }
 
   return (
-    <button className={`${bgStyle} py-4 px-10 rounded-[2rem] font-black text-white`}>
+    <button
+      className={`${bgStyle} py-4 px-10 rounded-[2rem] font-black text-white whitespace-nowrap`}
+    >
       {children}
     </button>
   );
