@@ -2,7 +2,7 @@ import { VerticalIndicator } from "./VerticalIndicator";
 
 export function MainContent() {
   return (
-    <main className="p-8 sm:pt-14 pb-16 lg:pb-[4.5rem] lg:px-40 flex flex-col items-center">
+    <div className="p-8 sm:pt-14 pb-16 lg:pb-[4.5rem] lg:px-40 flex flex-col items-center">
       <VerticalIndicator>01</VerticalIndicator>
       <div className="my-16 grid grid-cols-2 sm:grid-cols-4 grid-rows-2 sm:grid-rows-1 gap-4 lg:gap-5">
         <img
@@ -27,7 +27,7 @@ export function MainContent() {
         />
       </div>
 
-      <div className="flex flex-col items-center text-center max-w-lg lg:max-w-xl">
+      <div className="flex flex-col items-center text-center max-w-md sm:max-w-lg lg:max-w-xl">
         <h2 className="text-cyan-600 text-xs sm:text-sm lg:text-base font-black uppercase tracking-[0.25rem] mb-4 leading-[1.1]">
           Built for modern use
         </h2>
@@ -40,6 +40,6 @@ export function MainContent() {
           access, data encryption, and data export.
         </p>
       </div>
-    </main>
+    </div>
   );
 }
